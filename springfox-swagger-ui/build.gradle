@@ -37,6 +37,10 @@ ext {
   artifactRepoBase = 'http://oss.jfrog.org/artifactory'
 }
 
+checkstyle {
+  sourceSets = []
+}
+
 dependencies {
   compile project(':springfox-spring-web')
   testCompile libs.test
